@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.example.consultorio.activities.cancelarCita"
+            android:theme="@style/Theme.MyApplication"/>
+
+        <activity
+            android:name="com.example.consultorio.activities.buscarCita"
+            android:theme="@style/Theme.MyApplication">
+        </activity>
+
+        <activity
+            android:name="com.example.consultorio.activities.modificarCita"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name="com.example.consultorio.activities.agregarCita"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name="com.example.consultorio.activities.barraNavegacionInferior"
+            android:background="@color/green_light"
+            android:theme="@style/Theme.MyApplication" />
+        <activity android:name="com.example.consultorio.activities.Registro" />
+        <activity android:name="com.example.consultorio.activities.splash_activity" />
+
+        <activity android:name="com.example.consultorio.activities.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--<intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>-->
+        </activity>
+
+    </application>
+
+</manifest>

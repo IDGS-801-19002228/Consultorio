@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Sonrisas Brillantes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="itemLogOut">Cerrar Sesion</string>
+
+    <string name="textView15">Apellido Paterno:</string>
+    <string name="textView17">Apellido Materno:</string>
+    <string name="textView18">Nombre:</string>
+    <string name="textView19">Fecha de Nacimiento:</string>
+    <string name="textView20">Edad:</string>
+
+    <string name="textView21">Genero:</string>
+    <string name="rbtnMujer">Mujer</string>
+    <string name="rbtnHombre">Hombre</string>
+
+    <string name="textView22">Especialidad:</string>
+    <string name="textView23">Tratamiento:</string>
+
+    <string name="textView24">Alergias:</string>
+    <string name="rbtnSi">Si</string>
+    <string name="rbtnNo">No</string>
+
+    <string name="textView25">Numero de contacto:</string>
+    <string name="textView26">Horario:</string>
+    <string name="textView27">Status:</string>
+    <string name="textView28">Fecha cita:</string>
+    <string name="chbStatus">Activo</string>
+</resources>
